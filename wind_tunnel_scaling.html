@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wind Tunnel Conversion</title>
+  <style>
+    /* Add some basic styling to the page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input {
+      margin-bottom: 10px;
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wind Tunnel Conversion</h1>
+  
+  <label for="inputScale">Input Scale:</label>
+  <input type="number" id="inputScale" step="any">
+
+  <label for="outputScale">Output Scale:</label>
+  <input type="number" id="outputScale" step="any">
+
+  <button id="convertBtn">Convert</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
