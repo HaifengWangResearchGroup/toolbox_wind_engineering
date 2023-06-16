@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .figure-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .figure {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .figure:hover {
+    transform: scale(1.1);
+  }
+  
+  .author {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
